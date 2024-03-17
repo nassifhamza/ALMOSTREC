@@ -82,8 +82,8 @@ else {
       <span class="nav-item">Account</span></a>
       <span class="tooltip" hidden>Account</span></li>
       <li><a href="./DECONREC.php"><i class="fa-solid fa-plug-circle-minus"></i>
-      <span class="nav-item">DISCONNECT</span></a>
-      <span class="tooltip" hidden>DISCONNECT</span></li>
+      <span class="nav-item">Disconnect</span></a>
+      <span class="tooltip" hidden>Disconnect</span></li>
      
 
 

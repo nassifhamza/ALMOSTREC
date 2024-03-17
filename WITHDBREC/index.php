@@ -51,7 +51,7 @@ if (isset($_POST["name"]) && isset($_POST["email"]) && isset($_POST["password"])
         }
     }
 }
-
+ 
 if (isset($_POST["emailS"]) && isset($_POST["passwordS"])) {
     if (!empty($_POST["emailS"]) && !empty($_POST["passwordS"])) {
         session_start();
@@ -135,9 +135,9 @@ if (isset($_POST["emailS"]) && isset($_POST["passwordS"])) {
 <body>
     <div class="LISTCONTAINER">
         <ul>
-            <li> <a href="../acceuil1-main/index.php">ACCEUIL</a></li>
-            <li><a href="../acceuil1-main/index.php">ABOUT</a></li>
-            <li><a href="../acceuil1-main/index.php">CONTACT</a></li>
+        <li> <a href="../acceuil1-main/index.php">Acceuil</a></li> 
+         <li><a href="../acceuil1-main/index.php">About</a></li> 
+        <li><a href="../acceuil1-main/index.php">Contact</a></li>
         </ul>
     </div>
     <div class="LOGO" style="font-size: 40px; text-transform:capitalize;margin:20px"><i class="fa-brands fa-fantasy-flight-games icon"></i> recruteur</div>
@@ -153,7 +153,7 @@ if (isset($_POST["emailS"]) && isset($_POST["passwordS"])) {
                     <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
 
                 </div>
-                <span> CREATE A NEW ACCOUNT </span>
+                <span> New Account </span>
                 <input type="text" placeholder="Name" name="name" required>
                 <input type="text" placeholder="prenom" name="prenom" required>
                 <input type="text" placeholder="USERNAME" name="USERNAME" required>
@@ -171,7 +171,7 @@ if (isset($_POST["emailS"]) && isset($_POST["passwordS"])) {
         </div>
         <div class="form-container sign-in">
             <form action="" method="post">
-                <h1>Sign In</h1>
+                <h1> Connect with</h1>
                 <div class="social-icons">
                     <a href="#" class="icon"><i class="fa-brands fa-google"></i></a>
                     <a href="#" class="icon"><i class="fa-brands fa-whatsapp"></i></a>
@@ -179,15 +179,15 @@ if (isset($_POST["emailS"]) && isset($_POST["passwordS"])) {
                     <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
 
                 </div>
-                <span>Or USE YOUR EMAIL PASSWORD</span>
+                <span>Or Sign In</span>
 
                 <input type="text" placeholder="Email OR USERNAME" name="emailS" value="<?php if (isset($_COOKIE["email"])) echo $_COOKIE["email"]; ?>">
                 <input type="password" placeholder="password" name="passwordS" value="<?php if (isset($_COOKIE["password"])) echo $_COOKIE["password"]; ?>">
-                <a href="#">Forgot your password ?</a>
+                <a href="#"style="color: blue;">Forgot your password ?</a>
                 <input style="position:relative; left:90px;" type="checkbox" name="visible" class="VISIBLE" id="back1">
-                <label for="back1" style="position: relative; top:-20px;left:0px">SHOW PASSWORD</label>
+                <label for="back1" style="position: relative; top:-20px;left:0px">Show password</label>
                 <input style="position:relative; left:80px;" type="checkbox" name="check" class="check" id="back">
-                <label for="back" style="position: relative; top:-22px;left:0px">REMEMBER ME</label>
+                <label for="back" style="position: relative; top:-22px;left:0px">Remember me</label>
                 <button id="SIGNIN">Sign In</button>
 
             </form>
@@ -207,9 +207,9 @@ if (isset($_POST["emailS"]) && isset($_POST["passwordS"])) {
 
                 <div class="toggle-panel toggle-right">
                     <h1>
-                        HELLO :THERE !
+                        HELLO THERE !
                     </h1>
-                    <p> Register by your personal details</p>
+                    <p>Try to join us</p>
                     <button class="hidden" id="register">Sign Up</button>
                 </div>
             </div>

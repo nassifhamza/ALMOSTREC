@@ -10,11 +10,12 @@
 
 }
 
+
 body
-{
+{ 
     
-    background-color: aquamarine;
-    background-image: linear-gradient(to right,rgb(141, 190, 174),aquamarine);
+    background-color: rgb(255, 255, 255);
+    background-image: linear-gradient(to right,rgba(199, 204, 207, 0.89),rgb(117, 140, 144));
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,7 +32,7 @@ body
 }
 .LISTCONTAINER ul li a:hover
 {
-    color: red;
+    color: rgb(255, 255, 255);
 
 }
  .LISTCONTAINER ul 
@@ -51,7 +52,7 @@ body
 .container
 {
 
-    background-color: rgb(18, 211, 169);
+    background-color: rgb(255, 255, 255);
     border-radius: 30px;
     -webkit-border-radius: 30px;
     -moz-border-radius: 30px;
@@ -101,7 +102,7 @@ a[class="icon"] {
 }
 .container button
 {
-    background-color: rgba(36, 8, 197, 0.712);
+    background-color: rgba(134, 146, 151, 0.868);
     border-radius:20px ;
 padding: 10px 45px;
 border :1px solid transparent;
@@ -251,9 +252,9 @@ z-index: 1;
 
 .toggle
 {
-    background-color: rgba(0, 50, 187, 0.616);
+    background-color: rgba(163, 180, 186, 0.616);
     height: 100%;
-    background: linear-gradient(to right,#5c6bc0,#512da8 );
+    background: linear-gradient(to right,#656667,#9aa1a4 );
     color: #fff;
     position: relative;
     left: -100%;

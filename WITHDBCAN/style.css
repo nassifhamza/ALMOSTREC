@@ -9,11 +9,11 @@
     font-family: 'Montserrat', sans-serif;
 
 }
-
+ 
 body
 {
-    background-color: aquamarine;
-    background-image: linear-gradient(to right,rgb(141, 190, 174),aquamarine);
+    background-color: rgb(255, 255, 255);
+    background-image: linear-gradient(to right,rgba(35, 73, 78, 0.621),rgba(17, 56, 69, 0.881));
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,7 +24,7 @@ body
 
 .container
 {
-    background-color: rgb(18, 211, 169);
+    background-color: rgb(255, 255, 255);
     border-radius: 30px;
     -webkit-border-radius: 30px;
     -moz-border-radius: 30px;
@@ -74,7 +74,7 @@ a[class="icon"] {
 }
 .container button
 {
-    background-color: rgba(36, 8, 197, 0.712);
+    background-color: rgba(42, 83, 96, 0.712);
     border-radius:20px ;
 padding: 10px 45px;
 border :1px solid transparent;
@@ -92,7 +92,7 @@ cursor: pointer;
 .container button.hidden
 {
     background-color: transparent;
-    border-color:#fff;
+    border-color:#e0dfdf;
 }
 
 form
@@ -145,7 +145,7 @@ padding: 0 40px;
 }
 .LISTCONTAINER ul li a:hover
 {
-    color: red;
+    color: rgb(45, 83, 84);
 
 }
  .LISTCONTAINER ul 
@@ -247,9 +247,9 @@ z-index: 1;
 
 .toggle
 {
-    background-color: rgba(0, 50, 187, 0.616);
+    background-color: rgba(147, 147, 146, 0.616);
     height: 100%;
-    background: linear-gradient(to right,#5c6bc0,#512da8 );
+    background: linear-gradient(to right,#486f7aba,#1b4450c7 );
     color: #fff;
     position: relative;
     left: -100%;

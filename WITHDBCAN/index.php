@@ -148,11 +148,12 @@ if (isset($_POST["emailS"]) && isset($_POST["passwordS"])) {
 
 <body>
 
+
     <div class="LISTCONTAINER">
         <ul>
-            <li> <a href="../acceuil1-main/index.php">ACCEUIL</a></li>
-            <li><a href="../acceuil1-main/index.php">ABOUT</a></li>
-            <li><a href="../acceuil1-main/index.php">CONTACT</a></li>
+        <li> <a href="../acceuil1-main/index.php">Acceuil</a></li>
+            <li><a href="../acceuil1-main/index.php">About</a></li>
+            <li><a href="../acceuil1-main/index.php">Contact</a></li>
         </ul>
     </div>
     <div class="LOGO" style="font-size: 40px; text-transform:capitalize;margin:20px"><i class="fa-brands fa-fantasy-flight-games icon"></i> candidat</div>
@@ -168,7 +169,7 @@ if (isset($_POST["emailS"]) && isset($_POST["passwordS"])) {
                     <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
 
                 </div>
-                <span> CREATE A NEW ACCOUNT </span>
+                <span> New Account  </span>
                 <input type="text" placeholder="Name" name="name">
                 <input type="text" placeholder="prenom" name="prenom">
                 <input type="text" pattern="^[a-z0-9_-]{3,16}$" placeholder="USERNAME" name="USERNAME">
@@ -182,7 +183,7 @@ if (isset($_POST["emailS"]) && isset($_POST["passwordS"])) {
         </div>
         <div class="form-container sign-in">
             <form action="" method="post">
-                <h1>Sign In</h1>
+                <h1>Connect With</h1>
                 <div class="social-icons">
                     <a href="#" class="icon"><i class="fa-brands fa-google"></i></a>
                     <a href="#" class="icon"><i class="fa-brands fa-whatsapp"></i></a>
@@ -190,11 +191,11 @@ if (isset($_POST["emailS"]) && isset($_POST["passwordS"])) {
                     <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
 
                 </div>
-                <span>Or USE YOUR EMAIL PASSWORD</span>
+                <span>Or Sign In</span>
 
                 <input type="text" placeholder="Email OR USERNAME" name="emailS" value="<?php if (isset($_COOKIE["email"])) echo $_COOKIE["email"]; ?>">
                 <input type="password" placeholder="password" name="passwordS" value="<?php if (isset($_COOKIE["password"])) echo $_COOKIE["password"]; ?>">
-                <a href="#">Forgot your password ?</a>
+                <a href="#" style="color: blue;">Forgot your password ?</a>
                 <input style="position:relative; left:90px;" type="checkbox" name="visible" class="VISIBLE" id="back1">
                 <label for="back1" style="position: relative; top:-20px;left:0px">SHOW PASSWORD</label>
                 <input style="position:relative; left:80px;" type="checkbox" name="check" class="check" id="back">
@@ -218,9 +219,9 @@ if (isset($_POST["emailS"]) && isset($_POST["passwordS"])) {
 
                 <div class="toggle-panel toggle-right">
                     <h1>
-                        HELLO :THERE !
+                        HELLO THERE !
                     </h1>
-                    <p> Register by your personal details</p>
+                    <p> Try to join us </p>
                     <button class="hidden" id="register">Sign Up</button>
                 </div>
             </div>
