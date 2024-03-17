@@ -30,3 +30,19 @@ window.addEventListener("scroll",(event)=>
         behavior:"smooth"
     });
  })
+
+   //tooltip hiddem
+let MONITOR=document.querySelectorAll(".sidebar ul li a");
+let MONITOR1=document.querySelectorAll(".sidebar ul li .tooltip");
+
+MONITOR.forEach(el=>{
+   el.addEventListener("mouseenter",(event)=>
+   {
+      MONITOR1.forEach(ELE=>{
+         ELE.hidden=true;
+      })
+   el.nextElementSibling.removeAttribute("hidden");
+
+   })
+
+})

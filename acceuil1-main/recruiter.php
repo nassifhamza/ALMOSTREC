@@ -35,6 +35,21 @@ else {
 </head>
 <body>
 
+
+<a id="openMessageBubble" href="mailto: @gmail.com?subject=Sujet%20de%20l'email&body=Corps%20du%20message">
+    <button class="fa-regular fa-paper-plane" style="position: fixed;
+            bottom: 20px;
+            left: 20px;
+            border: none;
+            border-radius: 10px;
+            font-size: 30px;
+            cursor: pointer;
+            z-index: 1000;
+            background-color: transparent;
+            color: #15354dea;">
+    </button>
+</a>
+
 <!--navbar -->
 
 
