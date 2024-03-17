@@ -1,0 +1,25 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: rgb(224, 202, 174);
+    position: relative;
+}
+footer
+{
+    grid-area: foot;
+   
+    position: absolute;
+    bottom: -50%;
+    width: 100%;
+    text-align: center;
+
+    background-color: black;
+    color: white;
+
+}
