@@ -46,7 +46,7 @@ flex-direction: row-reverse;
    -o-transition: all 0.6s ease-in-out;
    margin-right: -60px;
    border-radius:5px ;
-   background-color: rgb(255, 251, 0,0.6);
+   background-color: rgba(156, 161, 161, 0.6);
    -webkit-border-radius:5px ;
    -moz-border-radius:5px ;
    -ms-border-radius:5px ;
@@ -226,7 +226,7 @@ transition:all 0.6s ease-in-out ;
 
 .page
 {
-background-color: #fd0000ce;
+  /* background-color: #fd0000ce;*/ 
    transition:all 0.6s linear ;
    -webkit-transition:all 0.6s linear ;
    -moz-transition:all 0.6s linear ;
@@ -240,7 +240,7 @@ background-color: #fd0000ce;
 
 #SPEC:hover
 {
-color:blueviolet
+color:rgb(31, 76, 95);
 }
 .container
 {
@@ -269,7 +269,7 @@ margin-top:10px;
 }
 .page .container nav.act
 {
- background-color:var(--maincolor,red);
+ background-color:var(--maincolor,rgb(86, 100, 105));
  z-index: 1000;
 }
 
@@ -281,7 +281,7 @@ margin-top:10px;
 }
 
 .page  .container nav
-{ grid-area: nav; background-color: rgba(252, 255, 79, 0.6); 
+{ grid-area: nav; background-color: rgba(27, 74, 91, 0.687); 
  border-top-right-radius: 20px;
  border-bottom-right-radius: 20px;
 
@@ -298,8 +298,9 @@ margin-top:10px;
 
 h2
 {
+    
     grid-area:logo;
-    background-color: rgb(46, 46, 219,0.4);
+    background-color: rgba(37, 77, 109, 0.4);
     text-align: center;
     padding-top: 10px;
     border-top-left-radius:20px ;
@@ -308,9 +309,11 @@ h2
 }
 
 .container section
-{
-    background-color: rgb(0, 0, 0,0.6);
-    color: rgb(255, 255, 255);
+{    
+    
+
+    background-color: rgba(76, 85, 90, 0.47);
+    color: rgb(0, 0, 0);
 
     grid-area: content;
     border-radius: 20px;
@@ -322,7 +325,6 @@ h2
     -moz-border-radius: 20px;
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
-    
     
 }
 .container section p
@@ -344,12 +346,12 @@ h2
     justify-content: space-evenly;
     align-items: center;
     
-    width: 400px;
+    width: 450px;
 
 }
 .PERSON input{
     width: 50%;
-    margin: 10px auto ;
+    margin: 8px auto ;
     outline: none;
     padding:5px;
     border-radius: 6px;
@@ -362,7 +364,7 @@ section form .DYNAMIC
 {
     display:grid;
     margin:10px auto 20px;
-gap: 50px 400px; 
+gap: 50px 100px; 
 grid-template-columns: 50% 50%;
 grid-template-rows: repeat(3,auto);
     justify-content: space-evenly;
@@ -382,8 +384,6 @@ grid-template-rows: 1fr 1fr 1fr;
 }
 section form .PART1
 {
-  
-
     
 }
 
@@ -391,7 +391,7 @@ section form .PART1
 section form .DYNAMIC  .FORMAT input::placeholder,section form .DYNAMIC  .FORMAT textarea::placeholder
 {
 
-color: rgba(255, 0, 0, 0.63);
+color: rgba(91, 97, 99, 0.63);
 text-align: center;
 font-style: italic;
 font-weight: 50px;
@@ -418,10 +418,10 @@ section form .DYNAMIC  div[class*="PART"] h1
     color: var(--maincolor,#eee);
    font-weight:bolder;
    width:fit-content;
-   font-size:40px;
+   font-size:30px;
    margin-bottom:20px;
    text-align: center;
-   background-color:#ddddddd0;
+   background-color:#475f68d0;
    padding: 5px;
    border-radius:10px ;
    -webkit-border-radius:10px ;
@@ -452,7 +452,7 @@ footer
     position: relative;
     bottom: 0;
     text-align: center;
-    background-color: black;
+    background-color: rgb(114, 126, 129);
     color: white;
 }
 
@@ -462,12 +462,12 @@ footer
     right: 20px;
     bottom: 20px;
     z-index: 1000;
-    color: red;
+    color: rgb(49, 89, 108);
  
     width: 0;
     height: 0;
     background-color: transparent;
-    border-color:  transparent transparent red transparent;
+    border-color:  transparent transparent rgb(48, 84, 109) transparent;
     border-width:20px;
     transition: all 0.9s linear;
     -webkit-transition: all 0.9s linear;
@@ -490,10 +490,10 @@ footer
         -moz-transform: translateY(5px);
         -ms-transform: translateY(5px);
         -o-transform: translateY(5px);
-        border-color: transparent transparent rgb(235, 70, 84);
+        border-color: transparent transparent rgb(35, 88, 100);
 }
         100%{
-            border-color: transparent transparent rgb(253, 0, 21);
+            border-color: transparent transparent rgb(59, 57, 58);
              transform:translateY(-10px) ; -webkit-transform:translateY(-10px) ; -moz-transform:translateY(-10px) ; -ms-transform:translateY(-10px) ; -o-transform:translateY(-10px) ;
 }
 
@@ -555,7 +555,7 @@ font-weight: bolder;
 }
 .skills .skill-box .skill-progress span
 {
-    background-color:var(--maincolor,yellow);
+    background-color:var(--maincolor,rgb(46, 46, 45));
     
     height: 100%;
     border-radius:6px ;
@@ -577,7 +577,7 @@ font-weight: bolder;
 {
     padding-top: 50px;
     padding-bottom: 50px;
-}
+} 
 
 .POPUP .POPUP_box
 {
@@ -585,12 +585,12 @@ font-weight: bolder;
 }
 .BED
 {
-    background-color:RED;margin-top:25px;margin-left:20px;border-radius:10px;color:white;padding:5px;width:fit-content;position:absolute;cursor:pointer;
+    background-color:rgba(121, 42, 42, 0.74);margin-top:25px;margin-left:20px;border-radius:10px;color:white;padding:5px;width:fit-content;position:absolute;cursor:pointer;
 display: inline-block;
 }
 .SAEDIT
 {
-    background-color:green;margin-top:25px;border-radius:10px;color:white;padding:5px;width:fit-content;border:none;right:20px;cursor:pointer;
+    background-color:rgba(64, 100, 64, 0.635);margin-top:25px;border-radius:10px;color:white;padding:5px;width:fit-content;border:none;right:20px;cursor:pointer;
     display: inline-block;
 
 }
@@ -663,7 +663,7 @@ display: inline-block;
 }
 
 form  div[class*="TAHT"]
-{ background-color: rgba(255, 255, 255, 0.205); width: 500px;
+{ background-color: rgba(83, 98, 117, 0.089); width: 500px;
 overflow-x: auto;
 margin-left: -125px;
     margin-top: 20px ;
@@ -684,7 +684,7 @@ margin-left: -125px;
 
  div.FORMAT  button:last-child
  {
-padding: 1px 5px; border-radius:6px;color:rgba(9, 155, 9, 0.568);background-color:rgba(177, 160, 14, 0.932);font-size:20px;font-weight: bolder;
+padding: 1px 5px; border-radius:6px;color:rgba(25, 71, 99, 0.628);background-color:rgba(123, 134, 149, 0.932);font-size:20px;font-weight: bolder;
   margin-left:40px;
 
   cursor: pointer;
@@ -700,7 +700,7 @@ padding: 1px 5px; border-radius:6px;color:rgba(9, 155, 9, 0.568);background-colo
   
   .upload img{
     border-radius: 50%;
-    border: 8px solid #DCDCDC;
+    border: 8px solid #aaa7a79b;
   }
   
   .upload .round{

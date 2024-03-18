@@ -199,7 +199,9 @@ else {
         </title>
     </head>
 
+
     <body>
+        <!--
         <div class="settings" title="SETTINGS">
 
             <div class="SOUSCONTAINER">
@@ -217,7 +219,7 @@ else {
                         <li data-color="pink"></li>
                         <li data-color="black"></li>
                     </ul>
-                    <!-- <button id="SPEC" style=" cursor: pointer;text-align: center; border-radius:20px;padding:10px;border:none;">RESET</button> -->
+                    !-- <button id="SPEC" style=" cursor: pointer;text-align: center; border-radius:20px;padding:10px;border:none;">RESET</button> --
                 </div>
                 <div class="options">
                     <h4>RANDOM OPTIONS</h4>
@@ -226,11 +228,11 @@ else {
                         <span class="NO" data-text="NO">NO</span>
                     </div>
                 </div>
-                <!-- <button id="SPEC" style="position:absolute;bottom:0;cursor: pointer;;text-align: center;border-radius:20px;padding:10px;border:none;margin:10px;"><a href="decon.php" style="text-decoration:none;color:red">DISCONNECT</a></button> -->
+                !-- <button id="SPEC" style="position:absolute;bottom:0;cursor: pointer;;text-align: center;border-radius:20px;padding:10px;border:none;margin:10px;"><a href="decon.php" style="text-decoration:none;color:red">DISCONNECT</a></button> --
 
             </div>
         </div>
-
+-->
         <div class="page" id="pager">
 
             <div class="container">
@@ -238,7 +240,7 @@ else {
                 <h2 class="LOGO"><i class="fa-brands fa-fantasy-flight-games icon"></i>JoBNesT</h2>
                 <nav>
                     <ul>
-                        <li> <a href="./acceuil1-main/NEWCANDIDATE.php">About</a></li>
+                    <li> <a href="./acceuil1-main/NEWCANDIDATE.php">About</a></li>
                         <li><a href="./acceuil1-main/NEWCANDIDATE.php ">Home</a> </li>
                         <li><a href="./acceuil1-main/NEWCANDIDATE.php ">Service</a></li>
                         <li><a href="./acceuil1-main/NEWCANDIDATE.php ">Contact</a></li>
@@ -315,18 +317,18 @@ else {
                     <form action="./CHANGING.php" method="post" novalidate enctype="multipart/form-data">
 
                         <div class="PERSON">
-                            <label for="NOM">NOM</label>
+                            <label for="NOM">Nom</label>
                             <input type="text" readonly value="<?php echo $_SESSION["nomc"] ?>" id="NOM">
-                            <label for="PRENOM">PRENOM</label>
+                            <label for="PRENOM">Prenom</label>
                             <input type="text" readonly value="<?php echo $_SESSION["prenomc"] ?>" id="PRENOM">
-                            <label for="email">email</label>
+                            <label for="email">Email</label>
                             <input type="email" readonly value="<?php echo $_SESSION["emailc"] ?>" id="email" />
-                            <label for="DOMAINE">DOMAIN</label>
-                            <input type="text" name="DOMAIN" id="DOMAINE" required placeholder="DOMAINE" value="<?php echo $DOMI ?>" />
-                            <label for="ADRESSE">ADRESSE</label>
-                            <input type="text" name="ADRESSE" id="ADRESSE" required placeholder="ADRESSE" value="<?php echo $ADRE ?>" />
-                            <label for="TEL">TEL</label>
-                            <input type="text" name="TEL" minlength="10" maxlength="12" required id="TEL" placeholder="TEL NUMBER" value="<?php echo $TEL ?>">
+                            <label for="DOMAINE">Domain</label>
+                            <input type="text" name="DOMAIN" id="DOMAINE" required placeholder="Domain" value="<?php echo $DOMI ?>" />
+                            <label for="ADRESSE">Adress</label>
+                            <input type="text" name="ADRESSE" id="ADRESSE" required placeholder="...@gmail.com" value="<?php echo $ADRE ?>" />
+                            <label for="TEL">Tele</label>
+                            <input type="text" name="TEL" minlength="10" maxlength="12" required id="TEL" placeholder="Tel-Number" value="<?php echo $TEL ?>">
                             <!-- <label for="NOM" >NOM</label>
     <input type="text" readonly value="" id="NOM" >
     <label for="NOM">NOM</label>
@@ -334,13 +336,13 @@ else {
                         </div>
                         <div class="DYNAMIC">
                             <div class="PART1">
-                                <h1>FORMATION</h1>
+                                <h1>Formation</h1>
                                 <div class="FORMAT">
                                     <input type="text" id="TASK1" placeholder="INSTITUTION">
-                                    <label for="TASK">GRADUATION_DATE</label>
-                                    <input type="DATE" id="TASK1" placeholder="DATE" title="GRADUATION_DATE">
-                                    <input type="text" id="TASK1" placeholder="FILLIER">
-                                    <input type="text" id="TASK1" placeholder="DIPLOME">
+                                    <label for="TASK">Graduation_Date</label>
+                                    <input type="DATE" id="TASK1" placeholder="DATE" title="Graduation_Date">
+                                    <input type="text" id="TASK1" placeholder="Fillier">
+                                    <input type="text" id="TASK1" placeholder="Diplome">
                                     <button type="button" title="ADD FORMATIONS" class="FOR">+</button>
 
                                 </div>
@@ -444,7 +446,7 @@ ADDING1.IMPO('$FORMATION[$FOURTH]','$FORMAKEY[$FOURTH]');
                                 </div>
                             </div>
                             <div class="PART2">
-                                <h1>COMPETENCES</h1>
+                                <h1>Competences</h1>
                                 <div class="FORMAT">
 
                                     <input type="text" id="TASK2" placeholder="SKILL">
@@ -481,12 +483,12 @@ ADDING2.ENDING();
                                 </div>
                             </div>
                             <div class="PART3">
-                                <h1>EXPRIENCES</h1>
+                                <h1>Experiences</h1>
                                 <div class="FORMAT">
 
-                                    <input type="text" id="TASK3" placeholder="SOCIETE">
-                                    <input type="text" id="TASK3" placeholder="PERIOD">
-                                    <input type="text" id="TASK3" placeholder="POSTE">
+                                <input type="text" id="TASK3" placeholder="Societe">
+                                    <input type="text" id="TASK3" placeholder="Period">
+                                    <input type="text" id="TASK3" placeholder="Poste">
 
                                     <button type="button" class="EXPS" title="ADD EXPERIANCES">+</button>
 
@@ -522,10 +524,10 @@ ADDING3.ENDING();
                                 </div>
                             </div>
                             <div class="PART4">
-                                <h1>PROJETS</h1>
+                                <h1>Projects</h1>
                                 <div class="FORMAT">
 
-                                    <input type="text" id="TASK4" placeholder="PROJECT_NAME">
+                                    <input type="text" id="TASK4" placeholder="Project_name">
                                     <textarea style="margin-left: 5px; min-height:150px;min-width:300px;outline:none;border-raduis:20px; border:3px solid black; caret-color:red;max-width:400px" id="TASK4" placeholder="DESCRIPTION"></textarea>
 
 
@@ -560,10 +562,10 @@ ADDING4.ENDING();
                                 </div>
                             </div>
                             <div class="PART5">
-                                <h1>LANGUES</h1>
+                            <h1>Languages</h1>
                                 <div class="FORMAT">
-                                    <input type="text" id="TASK5" placeholder="LANGUAGE">
-                                    <input type="text" id="TASK5" placeholder="LEVEL">
+                                    <input type="text" id="TASK5" placeholder="Language">
+                                    <input type="text" id="TASK5" placeholder="Level">
 
                                     <button type="button" class="LANG" title="ADD LANGUAGES">+</button>
 
@@ -595,7 +597,7 @@ ADDING5.ENDING();
                                 </div>
                             </div>
                             <div class="PART6">
-                            <h1>VOTRE CV</h1>
+                            <h1>Votre CV</h1>
                                 <div class="FORMAT">
                                     
                                 
