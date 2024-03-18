@@ -60,34 +60,33 @@ else {
     </div>
     <ul>
 
-
-      <li><a href="index.php"><i class="fa-solid fa-house"></i>
+    <li><a href="index.php"><i class="fa-solid fa-house"></i>
           <span class="nav-item">Home</span></a>
-        <span class="tooltip">Home</span>
+        <span class="tooltip" hidden>Home</span>
       </li>
 
       <li><a href="#footer"><i class="fa-solid fa-table-columns"></i>
           <span class="nav-item">Dashboard</span></a>
-        <span class="tooltip">Dashboard</span>
+        <span class="tooltip" hidden>Dashboard</span>
       </li>
 
       <li><a href="#completcv"><i class="bx bxs-contact"></i>
           <span class="nav-item">Account</span></a>
-        <span class="tooltip">Account</span>
+        <span class="tooltip" hidden>Account</span>
       </li>
 
       <li><a href="#offer"><i class="fa-solid fa-briefcase"></i>
           <span class="nav-item">Offers</span></a>
-        <span class="tooltip">Offers</span>
+        <span class="tooltip" hidden>Offers</span>
       </li>
 
       <li><a href="#companie"><i class="bx bxs-building-house"></i>
           <span class="nav-item">Companies</span></a>
-        <span class="tooltip">Companies</span>
+        <span class="tooltip" hidden>Companies</span>
       </li>
       <li><a href="./DECONCAN.php"><i class="fa-solid fa-plug-circle-minus"></i>
-      <span class="nav-item">DISCONNECT</span></a>
-      <span class="tooltip" hidden>DISCONNECT</span></li>
+      <span class="nav-item">Disconnected</span></a>
+      <span class="tooltip" hidden>Disconnected</span></li>
 
     </ul>
   </div>
